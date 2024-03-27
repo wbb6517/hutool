@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.util.AbstractCollection</OriginalElement>
+  <nodes>
+    <node x="-545.5" y="1794.0">java.util.JumboEnumSet</node>
+    <node x="-954.5" y="414.0">java.util.Dictionary</node>
+    <node x="-642.5" y="714.0">java.util.IdentityHashMap</node>
+    <node x="-490.0" y="1374.0">java.util.AbstractSet</node>
+    <node x="-490.0" y="414.0">java.util.Map</node>
+    <node x="-437.0" y="654.0">java.util.SequencedMap</node>
+    <node x="-784.5" y="1914.0">java.util.Stack</node>
+    <node x="-918.5" y="834.0">java.util.LinkedHashMap</node>
+    <node x="-958.5" y="1214.0">java.util.AbstractCollection</node>
+    <node x="-688.0" y="1374.0">java.util.Deque</node>
+    <node x="-873.0" y="914.0">java.lang.Iterable</node>
+    <node x="-789.0" y="1794.0">java.util.Vector</node>
+    <node x="-658.0" y="1734.0">java.util.ArrayList</node>
+    <node x="-403.5" y="1734.0">java.util.LinkedHashSet</node>
+    <node x="-518.0" y="1614.0">java.util.EnumSet</node>
+    <node x="-685.0" y="534.0">java.util.AbstractMap</node>
+    <node x="-728.5" y="1154.0">java.util.Queue</node>
+    <node x="-610.5" y="1214.0">java.util.SequencedCollection</node>
+    <node x="-355.0" y="1154.0">java.util.Set</node>
+    <node x="-950.0" y="1614.0">java.util.ArrayDeque</node>
+    <node x="-793.0" y="654.0">java.util.EnumMap</node>
+    <node x="-576.0" y="1434.0">java.util.List</node>
+    <node x="-951.0" y="714.0">java.util.HashMap</node>
+    <node x="-883.5" y="1034.0">java.util.Collection</node>
+    <node x="-863.5" y="1434.0">java.util.AbstractQueue</node>
+    <node x="-791.0" y="1554.0">java.util.AbstractList</node>
+    <node x="-416.0" y="1554.0">java.util.HashSet</node>
+    <node x="-914.0" y="534.0">java.util.Hashtable</node>
+    <node x="-382.0" y="1434.0">java.util.SequencedSet</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.EnumMap" target="java.util.AbstractMap" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-700.0" y="608.0" />
+      <point x="-580.0" y="608.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.Set" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="14.0" />
+      <point x="-300.0" y="1198.0" />
+      <point x="-800.0" y="1198.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.Hashtable" target="java.util.Dictionary" relationship="GENERALIZATION">
+      <point x="-40.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.EnumSet" target="java.util.AbstractSet" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-440.0" y="1598.0" />
+      <point x="-433.5" y="1598.0" />
+      <point x="-33.5" y="14.0" />
+    </edge>
+    <edge source="java.util.LinkedHashMap" target="java.util.HashMap" relationship="GENERALIZATION">
+      <point x="-60.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.HashSet" target="java.util.AbstractSet" relationship="GENERALIZATION">
+      <point x="0.0" y="14.0" />
+      <point x="-340.0" y="1598.0" />
+      <point x="-433.5" y="1598.0" />
+      <point x="-33.5" y="14.0" />
+    </edge>
+    <edge source="java.util.AbstractCollection" target="java.util.Collection" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-40.0" y="14.0" />
+    </edge>
+    <edge source="java.util.IdentityHashMap" target="java.util.AbstractMap" relationship="GENERALIZATION">
+      <point x="-15.0" y="-14.0" />
+      <point x="-535.0" y="608.0" />
+      <point x="-580.0" y="608.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.Deque" target="java.util.SequencedCollection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-620.0" y="1308.0" />
+      <point x="-480.0" y="1308.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.SequencedSet" target="java.util.Set" relationship="INTERFACE_GENERALIZATION">
+      <point x="15.0" y="-14.0" />
+      <point x="35.0" y="14.0" />
+    </edge>
+    <edge source="java.util.List" target="java.util.SequencedCollection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-520.0" y="1308.0" />
+      <point x="-480.0" y="1308.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.HashSet" target="java.util.Set" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-340.0" y="1508.0" />
+      <point x="-367.5" y="1508.0" />
+      <point x="-367.5" y="1479.5" />
+      <point x="-160.5" y="1479.5" />
+      <point x="-160.5" y="1168.0" />
+      <point x="55.0" y="0.0" />
+    </edge>
+    <edge source="java.util.Queue" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="14.0" />
+      <point x="-660.0" y="1198.0" />
+      <point x="-800.0" y="1198.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.LinkedHashMap" target="java.util.SequencedMap" relationship="REALIZATION">
+      <point x="118.5" y="0.0" />
+      <point x="-320.0" y="848.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.AbstractSet" target="java.util.AbstractCollection" relationship="GENERALIZATION">
+      <point x="0.0" y="14.0" />
+      <point x="-400.0" y="1418.0" />
+      <point x="-840.0" y="1418.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.AbstractList" target="java.util.AbstractCollection" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-700.0" y="1508.0" />
+      <point x="-634.0" y="1508.0" />
+      <point x="-634.0" y="1418.0" />
+      <point x="-840.0" y="1418.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.Vector" target="java.util.AbstractList" relationship="GENERALIZATION">
+      <point x="-15.0" y="-14.0" />
+      <point x="-735.0" y="1688.0" />
+      <point x="-669.5" y="1688.0" />
+      <point x="30.5" y="14.0" />
+    </edge>
+    <edge source="java.util.JumboEnumSet" target="java.util.EnumSet" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.AbstractSet" target="java.util.Set" relationship="REALIZATION">
+      <point x="-15.0" y="14.0" />
+      <point x="-415.0" y="1508.0" />
+      <point x="-367.5" y="1508.0" />
+      <point x="-367.5" y="1479.5" />
+      <point x="-160.5" y="1479.5" />
+      <point x="-160.5" y="1168.0" />
+      <point x="55.0" y="0.0" />
+    </edge>
+    <edge source="java.util.SequencedCollection" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-480.0" y="1198.0" />
+      <point x="-800.0" y="1198.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.ArrayList" target="java.util.List" relationship="REALIZATION">
+      <point x="0.0" y="14.0" />
+      <point x="-580.0" y="1778.0" />
+      <point x="-484.5" y="1778.0" />
+      <point x="-484.5" y="1659.5" />
+      <point x="-592.0" y="1659.5" />
+      <point x="-592.0" y="1448.0" />
+      <point x="-56.0" y="0.0" />
+    </edge>
+    <edge source="java.util.HashMap" target="java.util.Map" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-860.0" y="698.0" />
+      <point x="-931.5" y="698.0" />
+      <point x="-931.5" y="511.0" />
+      <point x="-705.0" y="511.0" />
+      <point x="-705.0" y="428.0" />
+      <point x="-70.0" y="0.0" />
+    </edge>
+    <edge source="java.util.ArrayDeque" target="java.util.AbstractCollection" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-860.0" y="1508.0" />
+      <point x="-634.0" y="1508.0" />
+      <point x="-634.0" y="1418.0" />
+      <point x="-840.0" y="1418.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.HashMap" target="java.util.AbstractMap" relationship="GENERALIZATION">
+      <point x="-15.0" y="-14.0" />
+      <point x="-875.0" y="608.0" />
+      <point x="-580.0" y="608.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.LinkedHashSet" target="java.util.SequencedSet" relationship="REALIZATION">
+      <point x="53.5" y="-14.0" />
+      <point x="33.5" y="14.0" />
+    </edge>
+    <edge source="java.util.SequencedSet" target="java.util.SequencedCollection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-280.0" y="1308.0" />
+      <point x="-480.0" y="1308.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.Stack" target="java.util.Vector" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.Hashtable" target="java.util.Map" relationship="REALIZATION">
+      <point x="94.0" y="0.0" />
+      <point x="-705.0" y="548.0" />
+      <point x="-705.0" y="428.0" />
+      <point x="-70.0" y="0.0" />
+    </edge>
+    <edge source="java.util.Collection" target="java.lang.Iterable" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.IdentityHashMap" target="java.util.Map" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-520.0" y="698.0" />
+      <point x="-931.5" y="698.0" />
+      <point x="-931.5" y="511.0" />
+      <point x="-705.0" y="511.0" />
+      <point x="-705.0" y="428.0" />
+      <point x="-70.0" y="0.0" />
+    </edge>
+    <edge source="java.util.ArrayDeque" target="java.util.Deque" relationship="REALIZATION">
+      <point x="15.0" y="-14.0" />
+      <point x="-845.0" y="1523.0" />
+      <point x="-619.0" y="1523.0" />
+      <point x="1.0" y="14.0" />
+    </edge>
+    <edge source="java.util.Deque" target="java.util.Queue" relationship="INTERFACE_GENERALIZATION">
+      <point x="-25.0" y="-14.0" />
+      <point x="15.0" y="14.0" />
+    </edge>
+    <edge source="java.util.AbstractQueue" target="java.util.Queue" relationship="REALIZATION">
+      <point x="-15.0" y="-14.0" />
+      <point x="-775.0" y="1274.5" />
+      <point x="-675.0" y="1274.5" />
+      <point x="-15.0" y="14.0" />
+    </edge>
+    <edge source="java.util.AbstractMap" target="java.util.Map" relationship="REALIZATION">
+      <point x="-105.0" y="0.0" />
+      <point x="-705.0" y="548.0" />
+      <point x="-705.0" y="428.0" />
+      <point x="-70.0" y="0.0" />
+    </edge>
+    <edge source="java.util.AbstractQueue" target="java.util.AbstractCollection" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-760.0" y="1418.0" />
+      <point x="-840.0" y="1418.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.AbstractList" target="java.util.List" relationship="REALIZATION">
+      <point x="91.0" y="0.0" />
+      <point x="-592.0" y="1568.0" />
+      <point x="-592.0" y="1448.0" />
+      <point x="-56.0" y="0.0" />
+    </edge>
+    <edge source="java.util.SequencedMap" target="java.util.Map" relationship="INTERFACE_GENERALIZATION">
+      <point x="-100.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.ArrayList" target="java.util.AbstractList" relationship="GENERALIZATION">
+      <point x="-78.0" y="0.0" />
+      <point x="-689.0" y="1748.0" />
+      <point x="-689.0" y="1688.0" />
+      <point x="-669.5" y="1688.0" />
+      <point x="30.5" y="14.0" />
+    </edge>
+    <edge source="java.util.LinkedHashSet" target="java.util.HashSet" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="40.0" y="14.0" />
+    </edge>
+    <edge source="java.util.Vector" target="java.util.List" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-720.0" y="1778.0" />
+      <point x="-484.5" y="1778.0" />
+      <point x="-484.5" y="1659.5" />
+      <point x="-592.0" y="1659.5" />
+      <point x="-592.0" y="1448.0" />
+      <point x="-56.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="分层紧凑" zoom="1.0535267280361758" showDependencies="false" x="-560.0951856287426" y="1618.0304" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
