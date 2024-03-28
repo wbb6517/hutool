@@ -8,13 +8,11 @@
 
 	<groupId>cn.hutool</groupId>
 	<artifactId>jdk21</artifactId>
-	<version>${version}</version>
+	<version>0.0.1</version>
 
 	<modules>
 		<module>test</module>
 	</modules>
-	<properties>
-		<version>0.0.1</version>
-	</properties>
+
 
 </project>
